@@ -9,3 +9,8 @@ resource "aws_instance" "example" {
     subnet_id = "subnet-079f92e1ba5e6c7cf"
    
 }
+
+resource "aws_s3_bucket" "manjunatha" {
+  bucket = "manjunatha-s3-demo-terraform"
+  
+}
